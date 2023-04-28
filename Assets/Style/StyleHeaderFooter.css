@@ -1,0 +1,75 @@
+@font-face {
+    font-family:"NeutonLight";
+    src: url('../Fonts/NeutonLight.ttf');
+}
+
+.navbar-brand{
+    color: #66297e;
+    font-family:'NeutonLight';
+    font-size: 3.5rem;
+}
+
+.navbar-brand:hover{
+    color:#42005c;
+}
+
+.nav-link{
+    color: #66297e;
+}
+
+.nav-link:hover{
+    color:#42005c;
+}
+
+.dropdown-item{
+    color: #66297e;
+}
+
+.dropdown-item:hover{
+    color:#42005c;
+}
+
+.dropdown-toggle:hover{
+    color:#42005c;
+}
+
+.btn-purple{
+    color: #66297e;
+    border-color: #66297e;
+}
+
+.btn-purple:hover{
+    background-color: #42005c;
+}
+
+.d-flex{
+    width: 15%;
+}
+
+ul{
+    margin:auto;
+}
+
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #f6f6f6;
+    color: #42005c;
+    font-size: 0.5rem;
+}
+
+.coloumn{
+    margin: auto;
+}
+
+i{
+    color:#66297e;
+    width: 10px;
+}
+
+i:hover{
+    color: #42005c;
+}
+
+
