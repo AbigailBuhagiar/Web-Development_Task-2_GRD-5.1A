@@ -1,0 +1,47 @@
+.ContactUs{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Icons{
+    color: black;
+    width: 20px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.IconsDiv{
+    text-align: center;
+}
+
+.Icons:hover{
+    color: grey;
+}
+
+.Details{
+    padding: 10px;
+
+}
+
+.Message{
+    height: 100px;
+    padding: 10px;
+}
+
+.EmailAddress{
+    width: 50%;
+    margin:auto;
+    padding-bottom: 280px;
+}
+
+.Submit{
+    padding-top: 100px;
+    margin: auto;
+}
