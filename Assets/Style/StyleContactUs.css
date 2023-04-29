@@ -1,13 +1,25 @@
+@font-face {
+    font-family:"glacial-indifference.regular.otf";
+    src: url('../Fonts/glacial-indifference.regular.otf');
+}
+
+@font-face {
+    font-family:"glacial-indifference.bold.otf";
+    src: url('../Fonts/glacial-indifference.bold.otf');
+}
+
 .ContactUs{
     width: 50%;
     text-align: center;
     margin: auto;
-
+    padding-top: 100px;
+    
 }
 
 h1{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
+    font-family: 'glacial-indifference-bold';
 }
 
 .Icons{
@@ -38,10 +50,10 @@ h1{
 .EmailAddress{
     width: 50%;
     margin:auto;
-    padding-bottom: 280px;
 }
 
 .Submit{
-    padding-top: 100px;
+    padding-bottom: 200px;
     margin: auto;
+    text-align: center;
 }
