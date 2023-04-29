@@ -1,7 +1,49 @@
+@font-face {
+    font-family:"glacial-indifference.regular.otf";
+    src: url('../Fonts/glacial-indifference.regular.otf');
+}
+
+@font-face {
+    font-family:"glacial-indifference.bold.otf";
+    src: url('../Fonts/glacial-indifference.bold.otf');
+}
+
+@font-face {
+    font-family:"NeutonLight";
+    src: url('../Fonts/NeutonLight.ttf');
+}
+
 .Subscribe{
     width: 20%;
     margin: auto;
     text-align: center;
     color: #66297e;
-    padding: 50%;
+}
+
+video{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+h1{
+    font-family: 'NeutonLight'; 
+    color: #66297e;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.Intro{
+    padding-top: 130px;
+    text-align: center;
+}
+
+.Icons{
+    width: 70px;
+
+}
+
+.Albums{
+    text-align: center;
 }
