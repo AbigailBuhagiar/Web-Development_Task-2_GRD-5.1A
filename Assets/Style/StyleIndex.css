@@ -44,10 +44,13 @@ h1{
 
 }
 
-.Albums{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    padding-bottom: 40px;
+
+
+img{
+    width: 710px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
