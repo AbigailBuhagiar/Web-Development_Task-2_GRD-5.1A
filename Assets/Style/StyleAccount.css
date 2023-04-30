@@ -1,0 +1,28 @@
+.SignIn{
+    padding-left: 200px;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+
+.LogIn{
+    padding-right: 200px;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+
+.Individual{
+    width: 70%;
+    padding: 10px;
+    padding-left: 120px;
+    text-align: center;
+}
+
+.Checked{
+    width: 70%;
+    padding: 10px;
+    padding-left: 150px;
+}
+
+
+
+
