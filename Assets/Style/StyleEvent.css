@@ -1,0 +1,19 @@
+.EventsList{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.Subscribe{
+    width: 40%;
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    color: #66297e;
+}
+
+.Shows{
+    padding-top: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
