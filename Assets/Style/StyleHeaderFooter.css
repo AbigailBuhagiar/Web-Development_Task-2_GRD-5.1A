@@ -73,6 +73,11 @@ i:hover{
 }
 
 .Account{
+    padding-right: 30px;
+    font-size: 2rem;
+}
+
+.ShoppingCart{
     padding-right: 50px;
     font-size: 2rem;
 }
