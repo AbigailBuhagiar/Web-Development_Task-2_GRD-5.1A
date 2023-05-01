@@ -1,0 +1,34 @@
+.RowAll{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.Row1{
+    width: 20%;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.Row2{
+    width: 20%;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.Row3{
+    width: 20%;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.Row4{
+    width: 20%;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+}
