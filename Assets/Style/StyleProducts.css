@@ -1,0 +1,118 @@
+img{
+    width: 100%;
+}
+
+.SmallContainer{
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+
+.SingleProduct{
+    margin-top: 80px;
+}
+
+.SmallImgRow{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.SmallImgCol{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.SingleProduct .col-2 img{
+    padding: 0;
+}
+
+.SingleProduct .col-2{
+    padding: 20px;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.SingleProduct select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.SingleProduct h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.SingleProduct input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #66297e;
+}
+
+input:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.SingleProduct .fa{
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+p{
+    color: #000000;
+}
+
+
+.ProductName{
+    color: #66297e;
+}
+
+.Price{
+    color: #000000;
+}
+
+.Size{
+    width: 50%;
+    padding-top: 50px;
+}
+
+.Quantity{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.Cart{
+    display: inline-block;
+    background-color: #66297e;
+    color: #ffffff;
+    padding: 10px 70px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
