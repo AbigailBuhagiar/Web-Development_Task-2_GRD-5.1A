@@ -1,25 +1,45 @@
-img{
-    width: 400px;
+
+.card{
+    width: 20rem;
 }
 
-.Image12{
-    padding-left: 50px;
+.row1{
     padding-top: 50px;
+    padding-left: 50px;
     margin: auto;
-    text-align: center;
+    padding-right: 50px;
 }
 
-.Image34{
-    padding-left: 50px;
+.row2{
     padding-top: 50px;
+    padding-left: 50px;
     margin: auto;
-    text-align: center;
+    padding-right: 50px;
 }
 
-.Image5{
-    padding-left: 50px;
+.row3{
     padding-top: 50px;
+    padding-left: 50px;
     margin: auto;
-    text-align: center;
+    padding-right: 50px;
+}
+
+.row4{
+    padding-top: 50px;
+    padding-left: 50px;
+    margin: auto;
+    padding-right: 50px;
+}
+
+.row4All{
+    padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+}
+
+.Albums{
+    padding-top: 100px;
+    padding-bottom: 240px;
 }
