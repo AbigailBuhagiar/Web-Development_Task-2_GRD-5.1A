@@ -82,4 +82,8 @@ i:hover{
     font-size: 2rem;
 }
 
+.Background{
+    background-image: url(../Images/Background.png);
+}
+
 
