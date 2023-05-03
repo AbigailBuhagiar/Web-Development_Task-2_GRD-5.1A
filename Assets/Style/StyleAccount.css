@@ -1,13 +1,13 @@
 .SignIn{
     padding-left: 200px;
     padding-top: 120px;
-    padding-bottom: 140px;
+    padding-bottom: 50px;
 }
 
 .LogIn{
     padding-right: 200px;
     padding-top: 120px;
-    padding-bottom: 140px;
+    padding-bottom: 50px;
 }
 
 .Individual{
@@ -23,6 +23,45 @@
     padding-left: 150px;
 }
 
+.btn-purple{
+    color: #66297e;
+    border-color: #66297e;
+}
 
+.btn-purple:hover{
+    background-color: #42005c;
+    color: #ffffff;
+    border-color: #42005c;
+}
 
+.btn-purple:active{
+    background-color: #66297e;
+    color: #ffffff;
+    border-color: #66297e;
+}
 
+.btn-purple:disabled{
+    background-color: #42005c;
+    color: #ffffff;
+    border-color: #42005c;
+}
+
+.form-check-input{
+    border-color: #66297e;
+    color: #ffffff;
+}
+
+.form-check-input:checked{
+    border-color: #66297e;
+    background-color: #66297e;
+    color: #ffffff;
+}
+
+.errorText{
+    color: red;
+}
+
+.inputError{
+    color: red;
+    border: 1px red solid;
+}
