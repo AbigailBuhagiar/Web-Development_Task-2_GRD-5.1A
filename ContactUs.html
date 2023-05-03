@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="Assets/Style/StyleHeaderFooter.css">
     <link rel="stylesheet" href="Assets/Style/StyleContactUs.css">
 </head>
-<body>
+<body class="Background">
 
 <!--Menu-->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -81,34 +81,49 @@
 
 
 <!--Contact Us Form-->
-    <form action="mailto:buhagiarabigail24@gmail.com" onsubmit="return">
+<div id="ContactFormContainer">
+    <form action="mailto:buhagiarabigail24@gmail.com" onsubmit="return validateForm();">
         <div class="row ContactUs ">
             <div class="col">
                 <div class="row Details">
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    <label for="FirstName"></label>
+                    <input type="text" id="FirstName" class="form-control" placeholder="FirstName" aria-label="FirstName">
+                </div>
+
+                <div class="row Details">
+                    <label for="LastName"></label>
+                    <input type="text" id="LastName" class="form-control" placeholder="LastName" aria-label="LastName">
                 </div>
                 <div class="row Details">
-                    <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name">
-                </div>
-                <div class="row Details">
-                    <input type="text" class="form-control" placeholder="Phone" aria-label="Phone">
+                    <label for="Phone"></label>
+                    <input type="text" id="Phone" class="form-control" placeholder="Phone" aria-label="Phone">
                 </div>
             </div>
 
                 <div class="col Message">
                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
-                    <label for="floatingTextarea2"></label>
+                    <label id="Message" for="floatingTextarea2"></label>
                 </div>
             </div>
 
             <div class="form-floating Details EmailAddress">
-                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
-                <label for="floatingInputGrid">Email Address</label>
+                <input type="Email" class="form-control" id="floatingInputGrid" value="mdo@example.com">
+                <label id="Email" for="Email">Email Address</label>
             </div>
             <div class="col Submit mb-4">
-                <button class="btn btn-outline-primary btn-purple" type="submit" href="!">Submit</button>
+                <button class="btn btn-purple" type="submit" href="!">Submit</button>
+                <button class="btn btn-purple" type="reset" onclick="resetForm();">Reset</button>
             </div>
     </form>
+</div>
+
+<div id="ContactFormErrors" class="errorText">
+    <ul id="ErrorList">
+    </ul>
+</div>
+
+<script src="Assets/Script/ValContactUs.js"></script>
+
 
 <!--Footer-->
     <footer>
