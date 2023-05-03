@@ -88,3 +88,14 @@ th:last-child{
     padding-left: 80px;
     width: 70%;
 }
+
+.btn-purple{
+    color: #66297e;
+    border-color: #66297e;
+}
+
+.btn-purple:hover{
+    background-color: #42005c;
+    color: #ffffff;
+    border-color: #42005c;
+}
