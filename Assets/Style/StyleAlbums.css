@@ -43,3 +43,26 @@
     padding-top: 100px;
     padding-bottom: 240px;
 }
+
+.btn-purple{
+    color: #66297e;
+    border-color: #66297e;
+}
+
+.btn-purple:hover{
+    background-color: #42005c;
+    color: #ffffff;
+    border-color: #42005c;
+}
+
+.btn-purple:active{
+    background-color: #66297e;
+    color: #ffffff;
+    border-color: #66297e;
+}
+
+.btn-purple:disabled{
+    background-color: #42005c;
+    color: #ffffff;
+    border-color: #42005c;
+}
