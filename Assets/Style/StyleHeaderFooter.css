@@ -86,4 +86,7 @@ i:hover{
     background-image: url(../Images/Background.png);
 }
 
+a{
+    text-decoration: none;
+}
 
