@@ -62,66 +62,66 @@
 
 
 <!--Contact Content-->
-    <!--Title-->
-        <h1>Get in Touch</h1>
+    <div class="container"></div>
+        <!--Title-->
+            <h1>Get in Touch</h1>
 
-    <!--Icons-->
-        <div class="IconsDiv">
-            <a href="https://www.facebook.com/TaylorSwift">
-                <i class="fa fa-facebook fa-lg Icons"></i>
-            </a>
+        <!--Icons-->
+            <div class="IconsDiv">
+                <a href="https://www.facebook.com/TaylorSwift">
+                    <i class="fa fa-facebook fa-lg Icons"></i>
+                </a>
 
-            <a href="https://www.instagram.com/taylorswift/">
-                <i class="fa fa-instagram fa-lg Icons"></i>
-            </a>
+                <a href="https://www.instagram.com/taylorswift/">
+                    <i class="fa fa-instagram fa-lg Icons"></i>
+                </a>
 
-            <a href="https://twitter.com/taylorswift13">
-                <i class="fa fa-twitter fa-lg Icons"></i>
-            </a>
-        </div>
+                <a href="https://twitter.com/taylorswift13">
+                    <i class="fa fa-twitter fa-lg Icons"></i>
+                </a>
+            </div>
 
-    <!--Contact Us Form-->
-        <div id="ContactFormContainer">
-            <form action="mailto:buhagiarabigail24@gmail.com" onsubmit="return validateForm();">
-                <div class="row ContactUs ">
-                    <div class="col">
-                        <div class="row Details">
-                            <label for="FirstName"></label>
-                            <input type="text" id="FirstName" class="form-control" placeholder="FirstName" aria-label="FirstName">
+        <!--Contact Us Form-->
+            <div id="ContactFormContainer">
+                <form action="mailto:buhagiarabigail24@gmail.com" onsubmit="return validateForm();">
+                    <div class="row ContactUs ">
+                        <div class="col">
+                            <div class="row Details">
+                                <label for="FirstName"></label>
+                                <input type="text" id="FirstName" class="form-control" placeholder="FirstName" aria-label="FirstName">
+                            </div>
+
+                            <div class="row Details">
+                                <label for="LastName"></label>
+                                <input type="text" id="LastName" class="form-control" placeholder="LastName" aria-label="LastName">
+                            </div>
+                            <div class="row Details">
+                                <label for="Phone"></label>
+                                <input type="text" id="Phone" class="form-control" placeholder="Phone" aria-label="Phone">
+                            </div>
                         </div>
 
-                        <div class="row Details">
-                            <label for="LastName"></label>
-                            <input type="text" id="LastName" class="form-control" placeholder="LastName" aria-label="LastName">
+                            <div class="col Message">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+                                <label id="Message" for="floatingTextarea2"></label>
+                            </div>
                         </div>
-                        <div class="row Details">
-                            <label for="Phone"></label>
-                            <input type="text" id="Phone" class="form-control" placeholder="Phone" aria-label="Phone">
-                        </div>
-                    </div>
 
-                        <div class="col Message">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
-                            <label id="Message" for="floatingTextarea2"></label>
+                        <div class="form-floating Details EmailAddress">
+                            <input type="Email" class="form-control" id="Email" value="mdo@example.com">
+                            <label for="Email">Email Address</label>
                         </div>
-                    </div>
-
-                    <div class="form-floating Details EmailAddress">
-                        <input type="Email" class="form-control" id="floatingInputGrid" value="mdo@example.com">
-                        <label id="Email" for="Email">Email Address</label>
-                    </div>
-                    <div class="col Submit mb-4">
-                        <button class="btn btn-purple" type="submit" href="!">Submit</button>
-                        <button class="btn btn-purple" type="reset" onclick="resetForm();">Reset</button>
-                    </div>
-            </form>
-        </div>
+                        <div class="col Submit mb-4">
+                            <button class="btn btn-purple" type="submit">Submit</button>
+                            <button class="btn btn-purple" type="reset" onclick="resetForm();">Reset</button>
+                        </div>
+                </form>
 
         <div id="ContactFormErrors" class="errorText">
             <ul id="ErrorList">
             </ul>
         </div>
-
+    </div>
 
 <!--Java Script Link-->
     <script src="Assets/Script/ValContactUs.js"></script>
