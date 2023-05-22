@@ -170,19 +170,21 @@
             </div>
 
 
-
+<!--Added a new 'form' to create an email function in Task 3 during Test Case-->
             <div class="col">
                 <div class="Subscribe">
                     <h3>Are you seeing your Date?</h3>
                     <h6>Subscribe now and be the first one to know.</h6>
+                    <form action="mailto:buhagiarabigail24@gmail.com" onsubmit="return validateForm();">
                         <div class="row">
-                            <div class="col mb-3">
-                            <input type="text" class="form-control" placeholder="Email" aria-label="Email">
-                            </div>
+                                <div class="col mb-3">
+                                    <input type="email" id="Email" class="form-control" placeholder="Email" aria-label="Email">
+                                </div>
                         </div>
                         <div class="col Submit mb-4">
                             <button class="btn btn-outline-primary btn-purple" type="submit">Submit</button>
                         </div>
+                    </form>
                 </div>
             </div>
         </div>
